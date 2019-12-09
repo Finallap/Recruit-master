@@ -83,7 +83,7 @@ include_once 'lib/system_config.php';
             	<a class="brand" href="index.php"><img src="images/logo.png" width="195" height="22"></a>
                 <ul class="nav pull-right">
                 <li id="fat-menu" class="dropdown">
-                        <a href="" id="drop3" role="button" class="dropdown-toggle" onclick="javascript:history.back(-1);">
+                        <a href="javascript:history.go(-1);" id="drop3" role="button" class="dropdown-toggle">
                              返回上一页
                         </a>
                     </li>
@@ -121,13 +121,19 @@ include_once 'lib/system_config.php';
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
         <p>系统管理员</p>
-        <p>E-mail：chenlong@aifuwu.org</p>
-        <p>QQ：491249336</p>
-        <p>手机：15850580529</p>
+        <p>E-mail：</p>
+        <p>QQ：</p>
         <p>&nbsp;</p>
         <p>开发团队</p>
-        <p>爱·服务网络部</p>
+        <p>爱·服务网络部：王泽晨 方垣闰</p>
         <p>联系E-mail：fangyuanrun@aifuwu.org</p>
+        <p>&nbsp;</p>
+        <p>运行推广</p>
+        <p>爱·服务发展部：潘博涵        </p>
+        <p>爱·服务宣传部：兰宁</p>
+        <p>爱·服务采编部：牛亚楠 常雪婧</p>
+        <p>联系QQ群：486347310</p>
+        <p>联系邮箱：aifuwu@aifuwu.org</p>
       </div>
       
     </div>

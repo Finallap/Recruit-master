@@ -155,7 +155,7 @@ $display_block_2=<<<END_OF_TEXT
         </div>
         <p class="pull-right" style=""><a href="sign-up.php">初次注册</a></p>
         <p><a href="use_instructions.php">登陆遇到问题?</a></p>
-        <p><a href="http://system-summary.aifuwu.org/">更多社团招新系统</a></p>
+        <p><a href="http://system_summary.aifuwu.org/">更多社团招新系统</a></p>
     </div>
 </div>
         <footer>

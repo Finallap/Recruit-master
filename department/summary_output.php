@@ -108,14 +108,12 @@ $display_block_2=<<<END_OF_TEXT
 </html>
 END_OF_TEXT;
 
-$selectStmt_first_choice=$pdo->prepare("select * from student_choice join student_status
-	on student_choice.student_id = student_status.student_id
- 	join student_basic_information on student_choice.student_id = student_basic_information.student_id
-    where student_status.ifconfirm='1' and student_choice.first_choice=:first_id");
-$selectStmt_second_choice=$pdo->prepare("select * from student_choice join student_status
-	on student_choice.student_id = student_status.student_id
-	join student_basic_information on student_choice.student_id = student_basic_information.student_id
-    where student_status.ifconfirm='1' and student_choice.second_choice=:second_id");
+$selectStmt_first_choice=$pdo->prepare("select * from student_choice join student_basic_information 
+    on student_choice.student_id = student_basic_information.student_id
+    where student_choice.first_choice=:first_id");
+$selectStmt_second_choice=$pdo->prepare("select * from student_choice join student_basic_information
+    on student_choice.student_id = student_basic_information.student_id
+    where student_choice.second_choice=:second_id");
 
 $showlist="";
 

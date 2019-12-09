@@ -112,14 +112,9 @@ $display_block=<<<END_OF_TEXT
 	<script type="text/javascript">
     function check()
 		{
-      var pattern=/^[A-Za-z0-9]+$/;
-      if(document.getElementById("department_id").value == ""){  
+            if(document.getElementById("department_id").value == ""){  
                 alert("请输入新增部门登陆ID!"); 
 				return false;  
-            }
-      if(!pattern.test(document.getElementById("department_id").value)){  
-                alert("部门登陆ID格式不正确，只能含有数字和字母!"); 
-        return false;  
             }
 			else if(document.getElementById("department_name").value == ""){  
                 alert("部门名称不能为空!"); 
@@ -232,7 +227,7 @@ $display_block=<<<END_OF_TEXT
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane active in" id="home">
     <form action="" method="post" id="tabs" onSubmit="return check()">
-     <label>部门登陆ID(只能为英文和数字组合)</label>
+     <label>部门登陆ID</label>
     <input type="text" id="department_id" name="department_id" class="input-xlarge">
         <label>密码</label>
         <input type="password"  id="password" name="password" class="input-xlarge">

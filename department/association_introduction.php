@@ -84,7 +84,7 @@ include_once 'lib/system_config.php';
             	<a class="brand" href="index.php"><img src="images/logo.png" width="195" height="22"></a>
                 <ul class="nav pull-right">
                 <li id="fat-menu" class="dropdown">
-                        <a href="" id="drop3" role="button" class="dropdown-toggle" onclick="javascript:history.back(-1);">
+                        <a href="javascript:history.go(-1);" id="drop3" role="button" class="dropdown-toggle">
                              返回上一页
                         </a>
                     </li>
@@ -120,10 +120,7 @@ include_once 'lib/system_config.php';
       <li><a href="index.php">返回首页</a></li>
     </ul>
     <div id="myTabContent" class="tab-content">
-      <div class="tab-pane active in" id="home">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京邮电大学学生事务中心成立于2013年12月，坐落于仙林校区图书馆一楼，秉承“简化办事流程，提高办事效率，解决学生困难”的服务宗旨，中心将围绕团组织关系转接、学籍管理、考试管理、教材代办、缴费退费、证件补办、奖助贷补管理、勤工助学管理、就业指导、户籍档案管理、保险理赔、建议投诉等实际需要，由信息化建设与管理办公室、财务处、教务处、学生工作处、保卫处、招生就业处、研究生院、后勤服务集团、校团委等部门在服务大厅设立服务窗口，为广大学生提供方便快捷服务。<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南京邮电大学学生事务中心下设学生发展中心（又称南邮爱·服务公益社团），在大厅的7号窗口开展综合咨询、学生证及校园卡的相关办理业务、失物招领、物资借用与寄存等业务服务，并在微信平台为大家提供一系列自助查询与人工答疑服务。<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学生发展中心，又称南邮爱·服务公益社团，下设五大中心：新媒体中心、大厅服务中心、办公中心、交流企划中心、技术中心。 </div>
+      <div class="tab-pane active in" id="home">社团简介</div>
       
     </div>
 
@@ -131,6 +128,9 @@ include_once 'lib/system_config.php';
 
         </div>
     </div>
+    
+
+    
     <footer>
         <hr>
 

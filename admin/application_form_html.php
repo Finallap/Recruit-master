@@ -198,7 +198,7 @@ $display_block=<<<END_OF_TEXT
                 <div class="row-fluid">
                 <table border="1" cellspacing="0" cellpadding="0" width="643" class="table">
   <tr>
-    <td width="643" colspan="5" align="center" valign="middle"><p align="center">#社团名字#招新报名表</p></td>
+    <td width="643" colspan="5" align="center" valign="middle"><p align="center">#社团名字# </p></td>
   </tr>
   <tr>
     <td width="113" rowspan="5" align="center" valign="middle"><p>&ldquo;我的&rdquo; <br />
